@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family:  arial, sans-serif;
+    margin: 2em;
+    background-color: #58418c;
+  }
+  
+  h1 {  
+    color: #d7d0e9;
+    text-align: center;
+    font-family: comic-sans;
+  }
+canvas{
+  display: block;
+  border: 3px solid black;
+  border-radius: 10%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 80px;
+}
+button {
+  font-family:  arial, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 50px;
+  color: #372d52;
+  border-radius: 30px;
+  border: none;
+  background: #d7d0e9;
+}
+span {
+  
+  display: block;
+  text-align: center;
+  font-family:  arial, sans-serif;
+  font-size: 36px;  
+}
+input{
+  display: block;
+}
+button:hover{
+  cursor: pointer; 
+  opacity: 0.8;
+}
+div.wrap{
+  border-radius: 30%;
+  padding: 30px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  width: 10%;
+  border: 3px solid black;
+  margin-bottom: 80px;
+}
+div.dv { 
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+ 
+}
+div.wrap-wrap{ 
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 200px;
+  margin: 10px;
+  margin-left:0px;
+}
+#size1 {
+  color: red;
+}

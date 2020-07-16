@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Outline!</title>
+   
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Outline!</h1>
+    <canvas id="canvas" width="1000" height="1000"></canvas>
+    <div class="wrap">
+      <div class="dv"> 
+        <div class="wrap-wrap">
+         <span>R</span>
+         <input type="range" min="0" max="255" id="size1"  value="140" oninput="filter()">
+        </div>
+      </div>
+    <div class="dv">  
+      <div class="wrap-wrap">
+        <span>G</span>
+        <input type="range" min="0" max="255" id="size2" value="140" oninput="filter()">
+        </div>
+      </div>
+    <div class="dv">  
+      <div class="wrap-wrap">
+        <span>B</span>
+        <input type="range" min="0" max="255" id="size3" value="140" oninput="filter()"> 
+        </div>
+      </div>
+    </div>
+    <canvas id="canvas2" width="1063" height="1512"></canvas>
+    <button onclick="func()"  class="btn btn-primary" >Draw an outline</button>
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
